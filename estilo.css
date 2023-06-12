@@ -1,0 +1,110 @@
+﻿
+#principal {
+    width: 100%;
+    /*height: 100vh;*/
+    background: url(istockphoto-675014218-170667a.jpg);
+    margin: 0 auto;
+
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+}
+#menu ul {
+    list-style-type: none; /* tirar as bolinhas da lista*/
+}
+#menu ul li {
+    display:inline-block;
+    width: 10%;
+    text-align: center;
+    line-height: 35px;
+    font-family:Trebuchet MS;
+}
+#menu ul li:hover {
+    background-color: white;
+    border-top: black solid 5px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: overline;
+}
+#esquerda {
+    width: 75%;
+    min-height: 200px;
+    /*background-color: darkgray;*/
+    display: inline-block;
+    float: left;
+}
+#direita {
+    width: 5%;
+    min-height: 200px;
+    /*background-color: darkgray;*/
+    display: inline-block;
+    float: right;
+}
+#referencia {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+    background-color: chartreuse;
+   
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    width: 200%;
+    
+}
+#parte{
+	width: 100%;
+    height: 1500vh;
+    background: url(istockphoto-675014218-170667a.jpg);
+   
+	}
+	h1 {	
+			text-align: left;	
+			background-color: white;
+			font-style: italic;
+			font-size: 14pt;
+			font-family: helvetica;
+			color: Green;
+			}
+	p {	
+			text-align: left;	
+			font-style: italic;
+			font-size: 14pt;
+			font-family: helvetica;
+			color: white;}
+			
+				h2 {	
+		text-align: left;	
+			background-color: white;
+			font-style: italic;
+			font-size: 14pt;
+			font-family: helvetica;
+			color: Green;
+			
+			}
+	h3 {	
+			text-align: left;	
+			font-style: italic;
+			font-size: 14pt;
+			font-family: helvetica;
+			color: black;
+			}
+		.caixinha {
+	/*background-color: red;*/
+	width: 30%;
+	display: inline-block;
+	float: left;}
+	.caixola {
+	/*background-color: red;*/
+	width: 45%;
+	display: inline-block;
+	image-orientation:width="520" height="605" ;
+	float: right;
